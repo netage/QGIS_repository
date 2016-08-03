@@ -11,7 +11,7 @@
 		<file_name>LinkedDataPlugin.zip</file_name>
 		<icon>icon.png</icon>
 		<author_name><![CDATA[Netage]]></author_name>
-		<download_url>https://cloudbox.netage.nl/f/95199d803f/?dl=1</download_url>
+		<download_url>https://bitbucket.org/netagenl/qgis-icon-plugin/get/a074d47dcf15.zip</download_url>
 		<uploaded_by><![CDATA[Netage]]></uploaded_by>
 		<experimental>True</experimental>
 		<deprecated>False</deprecated>

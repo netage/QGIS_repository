@@ -1,21 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="plugins.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
-	<pyqgis_plugin name ="LinkedDataplugin" version="1.0.0" plugin_id="1">
-		<about></about>
-		<version></version>
-		<trusted>False</trusted>
-		<create_date>2016-08-18T09:43:57.251757</create_date>
-		<update_date>2016-08-18T09:43:57.251757</update_date>
-		<experimental>True</experimental>
-		<deprecated>False</deprecated>
-		<tracker><![CDATA[http://hub.qgis.org/projects/arpat]]></tracker>
-		<repository><![CDATA[https://trac.faunalia.it/svn/qgis_plugins/branches/arpat]]></repository>
-		<description>Display Icons purely based on Linked Data relations</description>
-		<homepage>http://www.netage.nl</homepage>
-		<qgis_minimum_version> 1.0 </qgis_minimum_version>
-		<file_name> LinkedDataPlugin.zip </file_name>
-		<author_name> Netage </author_name>
-		<download_url>https://cloudbox.netage.nl/f/95199d803f/?dl=1</download_url>
-	</pyqgis_plugin>
-</plugins> 
+    <pyqgis_plugin name="ARPAT plugin" version="0.3.3" plugin_id="147">
+        <description><![CDATA[Display of stratigraphy from surveys. Developing with funding from ARPAT.]]></description>
+        <about></about>
+        <version>0.3.3</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>1.0.0</qgis_minimum_version>
+        <qgis_maximum_version>1.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://www.faunalia.eu/]]></homepage>
+        <file_name>arpat.0.3.3.zip</file_name>
+        <icon>/static/packages/survey.png</icon>
+        <author_name><![CDATA[Martin Dobias (Faunalia)]]></author_name>
+        <download_url>http://plugins.qgis.org/plugins/arpat/version/0.3.3/download/</download_url>
+        <uploaded_by><![CDATA[brushtyler]]></uploaded_by>
+        <create_date>2012-06-18T09:43:57.251757</create_date>
+        <update_date>2012-06-18T09:43:57.251757</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[http://hub.qgis.org/projects/arpat]]></tracker>
+        <repository><![CDATA[https://trac.faunalia.it/svn/qgis_plugins/branches/arpat]]></repository>
+        <tags><![CDATA[geology,stratigraphy]]></tags>
+        <downloads>11400</downloads>
+        <average_vote>3.599640036</average_vote>
+        <rating_votes>10</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin>

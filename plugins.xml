@@ -1,30 +1,22 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/plugins.xsl" ?>
 <plugins>
-    <pyqgis_plugin name="ARPAT plugin" version="0.3.3" plugin_id="147">
-        <description><![CDATA[Display of stratigraphy from surveys. Developing with funding from ARPAT.]]></description>
-        <about></about>
-        <version>0.3.3</version>
-        <trusted>False</trusted>
-        <qgis_minimum_version>1.0.0</qgis_minimum_version>
-        <qgis_maximum_version>1.99.0</qgis_maximum_version>
-        <homepage><![CDATA[http://www.faunalia.eu/]]></homepage>
-        <file_name>arpat.0.3.3.zip</file_name>
-        <icon>/static/packages/survey.png</icon>
-        <author_name><![CDATA[Martin Dobias (Faunalia)]]></author_name>
-        <download_url>http://plugins.qgis.org/plugins/arpat/version/0.3.3/download/</download_url>
-        <uploaded_by><![CDATA[brushtyler]]></uploaded_by>
-        <create_date>2012-06-18T09:43:57.251757</create_date>
-        <update_date>2012-06-18T09:43:57.251757</update_date>
-        <experimental>False</experimental>
-        <deprecated>False</deprecated>
-        <tracker><![CDATA[http://hub.qgis.org/projects/arpat]]></tracker>
-        <repository><![CDATA[https://trac.faunalia.it/svn/qgis_plugins/branches/arpat]]></repository>
-        <tags><![CDATA[geology,stratigraphy]]></tags>
-        <downloads>11400</downloads>
-        <average_vote>3.599640036</average_vote>
-        <rating_votes>10</rating_votes>
-        <external_dependencies></external_dependencies>
-        <server>False</server>
-    </pyqgis_plugin>
+	<pyqgis_plugin name='LinkedDataPlugin' version='0.1' plugin_id='699995162'>
+		<description><![CDATA[This QGIS plugin is developed to use Linked Data techniques to change icons dynamically based on a linked data source. Therefore this plugin facilitates exchange of GIS layers among different stakeholders. It will be easier to understand each others layer if one is able to use his own icons on it. This plugin is initially developed for the emergency/first responders and disaster domain.]]></description>
+		<about>This simple plugin is renders icons based on linked data relations.</about>
+		<version>0.1</version>
+		<qgis_minimum_version>2.0</qgis_minimum_version>
+		<qgis_maximum_version>2.99</qgis_maximum_version>
+		<homepage><![CDATA[]]></homepage>
+		<file_name>LinkedDataPlugin.zip</file_name>
+		<icon>icon.png</icon>
+		<author_name><![CDATA[Netage]]></author_name>
+		<download_url>https://cloudbox.netage.nl/f/95199d803f/?dl=1</download_url>
+		<uploaded_by><![CDATA[Netage]]></uploaded_by>
+		<experimental>True</experimental>
+		<deprecated>False</deprecated>
+		<tracker><![CDATA[https://github.com/netage/QGIS_linked_data_plugin]]></tracker>
+		<repository><![CDATA[https://github.com/netage/QGIS_linked_data_plugin]]></repository>
+		<tags><![CDATA[Linked Data, SPARQL, RDF, icons, exchange]]></tags>
+	</pyqgis_plugin>
 </plugins>

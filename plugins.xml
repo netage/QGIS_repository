@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
-    <pyqgis_plugin name="Linked Data plugin" version="1.0.0" plugin_id="0">
+    <pyqgis_plugin name="Linked Data plugin" version="1.0.0" plugin_id="1">
         <description><![CDATA[Display Icons purely based on Linked Data relations]]></description>
         <about></about>
         <version>1.0.0</version>

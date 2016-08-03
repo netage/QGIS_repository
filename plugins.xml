@@ -1,30 +1,12 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
-<plugins>
-    <pyqgis_plugin name="Linked Data plugin" version="1.0.0" plugin_id="1">
-        <description><![CDATA[Display Icons purely based on Linked Data relations]]></description>
-        <about></about>
-        <version>1.0.0</version>
-        <trusted>False</trusted>
-        <qgis_minimum_version>1.0.0</qgis_minimum_version>
-        <qgis_maximum_version>1.99.0</qgis_maximum_version>
-        <homepage><![CDATA[http://www.netage.nl/]]></homepage>
-        <file_name>LinkedDataPlugin.zip</file_name>
-        <icon>/static/packages/survey.png</icon>
-        <author_name><![CDATA[Netage]]></author_name>
-        <download_url>https://cloudbox.netage.nl/f/95199d803f/?dl=1</download_url>
-        <uploaded_by><![CDATA[Netage]]></uploaded_by>
-        <create_date>2016-08-03T09:43:57.251757</create_date>
-        <update_date>2016-08-03T09:43:57.251757</update_date>
-        <experimental>True</experimental>
-        <deprecated>False</deprecated>
-        <tracker><![CDATA[http://notyetcreated]]></tracker>
-        <repository><![CDATA[http://notyetcreated]]></repository>
-        <tags><![CDATA[linked, data, rdf, SPARQL, icons, semantic, web]]></tags>
-        <downloads>0</downloads>
-        <average_vote>0</average_vote>
-        <rating_votes>0</rating_votes>
-        <external_dependencies></external_dependencies>
-        <server>False</server>
-    </pyqgis_plugin>
-</plugins>
+<? xml version = "1.0" ?>
+<? xml-stylesheet type = " text / xsl" href = "plugins.xsl"?>
+ <plugins>
+   <pyqgis_plugin name ="LinkedDataplugin" version = "1.0.0">
+     <description>Display Icons purely based on Linked Data relations</ description>
+     <homepage> hhttp://www.netage.nl</ homepage>
+     <qgis_minimum_version> 1.0 </ qgis_minimum_version>
+     <file_name> LinkedDataPlugin.zip </ file_name>
+     <author_name> Netage </ author_name>
+     <download_url> https://cloudbox.netage.nl/f/95199d803f/?dl=1 </ download_url>
+   </ pyqgis_plugin>
+ </ plugins> 

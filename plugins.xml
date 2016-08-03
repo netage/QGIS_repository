@@ -1,12 +1,12 @@
 <?xml version = "1.0"?>
-<?xml-stylesheet type = " text/xsl" href = "plugins.xsl"?>
+<?xml-stylesheet type="text/xsl" href="plugins.xsl"?>
  <plugins>
-   <pyqgis_plugin name ="LinkedDataplugin" version = "1.0.0">
+   <pyqgis_plugin name="LinkedDataplugin" version = "1.0.0">
      <description>Display Icons purely based on Linked Data relations</description>
-     <homepage> hhttp://www.netage.nl</homepage>
-     <qgis_minimum_version> 1.0 </qgis_minimum_version>
-     <file_name> LinkedDataPlugin.zip </file_name>
-     <author_name> Netage </author_name>
-     <download_url> https://cloudbox.netage.nl/f/95199d803f/?dl=1 </download_url>
+     <homepage>http://www.netage.nl</homepage>
+     <qgis_minimum_version>1.0</qgis_minimum_version>
+     <file_name>LinkedDataPlugin.zip</file_name>
+     <author_name>Netage</author_name>
+     <download_url>https://cloudbox.netage.nl/f/95199d803f/?dl=1</download_url>
    </pyqgis_plugin>
  </plugins>
